@@ -1,5 +1,5 @@
 import { useQuery, gql } from '@apollo/client';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import ReviewItem from '../components/ReviewItem';
 
 const CATEGORY = gql`
